@@ -19,7 +19,7 @@ const Background = ({ playStatus, heroCount }) => {
         return <img src={image2} className='background' />
     }
 
-    else if (heroCount == 2) {
+    else if (heroCount === 2) {
         return <img src={image3} className='background' />
     }
 }
